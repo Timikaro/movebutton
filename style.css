@@ -1,0 +1,66 @@
+*{
+    font-family: SF Display;
+    cursor: default;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+ /* .mywindow{
+    background: #ECECEC;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 120px);
+    font-size: 12pt;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0px 0px 10px #00000020;
+    
+} */
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.myanimated{
+    transition: all ease 0.5s;
+}
+
+.mybutton{
+    position: absolute;
+    top: 300px;
+    left: 45%;
+
+}
+.klikY, .klikN{
+    display: inline-block;
+    width: 80px;
+    background: cyan;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px; 
+    font-weight:  600;
+}
+.klikY{
+    background: rgb(10,107,254);
+  background: linear-gradient(0deg, rgba(10,107,254,1) 0%, rgba(106,163,252,1) 100%);
+  color: #FFFFFF;
+    border: 1px solid #015FFC;
+}
+.klikY:hover{
+    background: rgb(10,107,254);
+}
+.klikN{
+    background: #FFFFFF;
+    border: 1px solid #C6C6C6;
+}
+.klikN:hover{
+    background: #EDEDED;
+}
+
+
