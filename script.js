@@ -1,4 +1,5 @@
 
+var elem = document.documentElement;
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
