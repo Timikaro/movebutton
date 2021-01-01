@@ -1,4 +1,9 @@
 
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  };
+
 
 // var mywindow = document.querySelector('#mywindow');
 var mywindow = document.getElementsByClassName('mybutton')[0];
